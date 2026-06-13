@@ -169,73 +169,28 @@ CSV: /data/loto7hh_4632_k47.csv| Izvlacenja: 4632 | tezine: talas=0.7 freq=0.3
 
 Top 10 brojeva po kombinovanom skoru (tezinski talas+ frekvencija):
   26  skor=0.8616065040  freq=0.02680  (pojava=869)
-  30  skor=0.7434482759  freq=0.02427  (pojava=787)
+   x  skor=0.7434482759  freq=0.02427  (pojava=787)
   14  skor=0.7393897322  freq=0.02495  (pojava=809)
-  37  skor=0.6917993200  freq=0.02652  (pojava=860)
+   y  skor=0.6917993200  freq=0.02652  (pojava=860)
   23  skor=0.6523369815  freq=0.02791  (pojava=905)
-  21  skor=0.6250653194  freq=0.02551  (pojava=827)
+   z  skor=0.6250653194  freq=0.02551  (pojava=827)
   11  skor=0.6096364236  freq=0.02655  (pojava=861)
-  13  skor=0.6031430499  freq=0.02554  (pojava=828)
+   x  skor=0.6031430499  freq=0.02554  (pojava=828)
   31  skor=0.5569196182  freq=0.02560  (pojava=830)
   08  skor=0.5554393544  freq=0.02810  (pojava=911)
 
 
-Tabela pravih frekvencija (opadajuce po freq, pa po broju):
-  broj | pojava |   udeo
-  -----+--------+--------
-   08  |   911  | 0.02810
-   23  |   905  | 0.02791
-   34  |   873  | 0.02692
-   26  |   869  | 0.02680
-   11  |   861  | 0.02655
-   37  |   860  | 0.02652
-   32  |   857  | 0.02643
-   33  |   854  | 0.02634
-   22  |   851  | 0.02625
-   39  |   849  | 0.02618
-   29  |   849  | 0.02618
-   10  |   845  | 0.02606
-   07  |   844  | 0.02603
-   35  |   843  | 0.02600
-   09  |   843  | 0.02600
-   38  |   842  | 0.02597
-   25  |   840  | 0.02591
-   24  |   840  | 0.02591
-   16  |   837  | 0.02581
-   31  |   830  | 0.02560
-   13  |   828  | 0.02554
-   05  |   828  | 0.02554
-   21  |   827  | 0.02551
-   03  |   826  | 0.02547
-   02  |   825  | 0.02544
-   28  |   821  | 0.02532
-   18  |   821  | 0.02532
-   06  |   816  | 0.02517
-   19  |   814  | 0.02510
-   04  |   812  | 0.02504
-   12  |   810  | 0.02498
-   14  |   809  | 0.02495
-   15  |   798  | 0.02461
-   27  |   789  | 0.02433
-   01  |   788  | 0.02430
-   30  |   787  | 0.02427
-   36  |   786  | 0.02424
-   20  |   770  | 0.02375
-   17  |   766  | 0.02362
-  ukupno pojava: 32424
-
-
 Predlozene kombinacije (rangirane po skoru kombinacije):
-  01. 04 11 23 27 30 36 37  skor_komb=4.1326217103
-  02. 05 08 13 14 27 33 39  skor_komb=3.7484146107
-  03. 08 16 18 22 26 31 32  skor_komb=3.7315588531
-  04. 09 10 11 20 27 30 37  skor_komb=3.7308899146
-  05. 05 07 11 13 28 30 39  skor_komb=3.6070651835
-  06. 06 08 13 21 23 24 31  skor_komb=3.6057461780
-  07. 15 16 24 26 28 30 39  skor_komb=3.5593160299
-  08. 01 10 13 21 22 30 33  skor_komb=3.5437633664
-  09. 02 11 14 20 23 32 38  skor_komb=3.5262955644
-  10. 06 11 12 23 31 34 39  skor_komb=3.4323894836
+  01. 04 x 23 y 30 z 37  skor_komb=4.1326217103
+  02. 05 x 13 y 27 z 39  skor_komb=3.7484146107
+  03. 08 x 18 y 26 z 32  skor_komb=3.7315588531
+  04. 09 x 11 y 27 z 37  skor_komb=3.7308899146
+  05. 05 x 11 y 28 z 39  skor_komb=3.6070651835
+  06. 06 x 13 y 23 z 31  skor_komb=3.6057461780
+  07. 15 x 24 y 28 z 39  skor_komb=3.5593160299
+  08. 01 x 13 y 22 z 33  skor_komb=3.5437633664
+  09. 02 x 14 y 23 z 38  skor_komb=3.5262955644
+  10. 06 x 12 y 31 z 39  skor_komb=3.4323894836
 
 Sacuvano: /Tesla/tesla_369_5.txt
 """
@@ -309,49 +264,14 @@ Snima tesla_369_5.png i tesla_369_5.jpg, preko zajedničke funkcije nacrtaj_polj
 
 
 Top brojevi u ovom modelu su:
-26, 30, 14, 37, 23, 21, 11, 13, 31, 08
+26, x, 14, y, 23, z, 11, x, 31, 08
 
 Prva rangirana kombinacija:
-04 11 23 27 30 36 37
+04 x 23 y 30 z 37
 
 Ovaj rezultat se razlikuje od 5A, što je dobro: 
 znači da osnovni 5 daje zaseban talasni signal. 
 """
-
- 
-
-
-
-
-
-"""
-Tesla-Based Scalar 3-6-9 Harmonic Field Alignment System
-
-Distributed harmonic tuning array composed of 21 modular pyramidal nodes, 
-each emitting a 3-6-9 structured waveform aimed at a central convergence point. 
-When arranged in geometric spherical symmetry, 
-these nodes self-align using onboard sensors 
-and modulate their waveform output in real time to achieve scalar coherence.
-
-
-Each node outputs a waveform calculated as:
-
-A(t) = A₀ * [sin(3ωt) + sin(6ωt) + sin(9ωt)]
-
-3ω: Primary phase structure
-
-6ω: Harmonic reflection
-
-9ω: Coherence amplifier
-
-
-When oriented inward toward a singular focal point, 
-the 21 pyramids enable scalar field visualization via phase-locked feedback. 
-The system operates on Tesla 3-6-9 logic, harmonic resonance stacking, 
-and measurable magnetic-optical convergence.
-"""
-
-
 
 
 """
